@@ -7,7 +7,6 @@ import { ReactMarkdown } from "react-markdown/lib/react-markdown";
 
 
 export default function Post() {
-
     const parametros = useParams();
 
     const post = posts.find((post) => {
@@ -15,17 +14,15 @@ export default function Post() {
     })
 
     return (
-        <PostModelo 
-            fotCapa={`/posts/${post.id}/capa.png`}
+        <PostModelo
+            fotoCapa={`/posts/${post.id}/capa.png`}
             titulo={post.titulo}>
-                
-                <div classeName="post-markdown-container">
+            <div classeName="post-markdown-container">
+                <ReactMarkdown>
+                    {post.texto}
+                </ReactMarkdown>
 
-                 <ReactMarkdown>
-                   {post.texto}
-                 </ReactMarkdown>
-
-                </div>
+            </div>
         </PostModelo>
     )
 }

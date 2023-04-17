@@ -1,25 +1,28 @@
+
 .post-markdown-container h3,
 .post-markdown-container h4,
 .post-markdown-container h5,
 .post-markdown-container h6 {
     font-family: var(--fonte-secundaria);
+
 }
 
 .post-markdown-container h3 {
     margin-bottom: 2rem;
-    font-size: 2.5rem;
+    font-size: 6.5rem;
 }
 
 .post-markdown-container h4 {
     margin-bottom: 1.5rem;
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
 .post-markdown-container p {
     text-align: justify;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     line-height: 2.25rem;
     margin-bottom: 1.5rem;
+
 }
 
 .post-markdown-container a {
