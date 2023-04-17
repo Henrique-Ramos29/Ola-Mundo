@@ -13,9 +13,9 @@ export default function SobreMim() {
             <img src={fotoSobreMim} alt="Foto do Henrique" className={styles.fotoSobreMim} />
 
             <p className={styles.paragrafo}>
-                Oi, tudo bem? Eu sou Aluno Oracle One Next Education = Alura e estou feliz de te ver por aqui.
+                Oi, tudo bem? Eu sou Aluno Oracle One Next Education + Alura e estou feliz de te ver por aqui.
             </p>
-            <p className={styles.paragrafo}>Oracle One Next Education
+            <p className={styles.paragrafo}>
                 Eu me chamo Henrique Ramos estou em busca da "tal" transição de carreira,
                 e comecei na programação
                 em outubro de 2022 fazendo um curso de lógica de programação com a tecnologia JAVA.

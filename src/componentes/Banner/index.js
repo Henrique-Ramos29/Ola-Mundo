@@ -11,7 +11,7 @@ export default function Banner() {
                 </h1>
                 <p className={styles.paragrafo}>
                     Boas vindas ao meu espaço pessoal!
-                    Eu sou Henrique Ramos, Aluno Front-end ONE Education
+                    Eu sou Henrique Ramos, Aluno ONE Education Oracle
                     + Alura. Aqui compartilho
                     vários conhecimentos, espero que
                     aprenda algo novo
