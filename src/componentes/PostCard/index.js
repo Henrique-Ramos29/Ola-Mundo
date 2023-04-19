@@ -9,9 +9,9 @@ export default function PostCard({ post }) {
 
             <div className={styles.post}>
                 <img className={styles.capa}
-                    src={`posts/${post.id}/capa.png`} alt="Imagem de capa do post" />
+                    src={`/posts/${post.id}/capa.png`} alt="Imagem de capa do post" />
                 <h2 className={styles.titulo}>{post.titulo}</h2>
-                
+
                 <BotaoPrincipal>Ler</BotaoPrincipal>
             </div>
 
